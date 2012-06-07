@@ -55,7 +55,7 @@
 		B1847C551580E5790080ADCA /* photo-gallery-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-gallery-right.png"; sourceTree = "<group>"; };
 		B1847C561580E5790080ADCA /* photo-gallery-trashcan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-gallery-trashcan.png"; sourceTree = "<group>"; };
 		B1847C5B1580E5C30080ADCA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		B1847C621580F2CC0080ADCA /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		B1847C621580F2CC0080ADCA /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainWindow.xib; path = ../MainWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,6 @@
 		B1847C151580E48D0080ADCA = {
 			isa = PBXGroup;
 			children = (
-				B1847C621580F2CC0080ADCA /* MainWindow.xib */,
 				B1847C411580E4AD0080ADCA /* FGallery */,
 				B1847C2A1580E48D0080ADCA /* PhotoAlbum */,
 				B1847C4B1580E5310080ADCA /* Resources */,
@@ -111,6 +110,7 @@
 				B1847C341580E48D0080ADCA /* AppDelegate.m */,
 				B12DE5291580FFA600330CCA /* PhotoSource.h */,
 				B12DE52A1580FFA600330CCA /* PhotoSource.m */,
+				B1847C621580F2CC0080ADCA /* MainWindow.xib */,
 				B1847C2B1580E48D0080ADCA /* Supporting Files */,
 			);
 			path = PhotoAlbum;
