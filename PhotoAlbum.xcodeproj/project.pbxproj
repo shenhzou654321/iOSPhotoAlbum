@@ -7,30 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B12DE52B1580FFA600330CCA /* PhotoSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B12DE52A1580FFA600330CCA /* PhotoSource.m */; };
 		B1847C251580E48D0080ADCA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1847C241580E48D0080ADCA /* UIKit.framework */; };
 		B1847C271580E48D0080ADCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1847C261580E48D0080ADCA /* Foundation.framework */; };
 		B1847C291580E48D0080ADCA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1847C281580E48D0080ADCA /* CoreGraphics.framework */; };
 		B1847C2F1580E48D0080ADCA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B1847C2D1580E48D0080ADCA /* InfoPlist.strings */; };
 		B1847C311580E48D0080ADCA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1847C301580E48D0080ADCA /* main.m */; };
 		B1847C351580E48D0080ADCA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1847C341580E48D0080ADCA /* AppDelegate.m */; };
-		B1847C381580E48D0080ADCA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1847C371580E48D0080ADCA /* ViewController.m */; };
-		B1847C3B1580E48D0080ADCA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1847C391580E48D0080ADCA /* ViewController.xib */; };
+		B1847C481580E4ED0080ADCA /* FGalleryPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = B1847C431580E4ED0080ADCA /* FGalleryPhoto.m */; };
+		B1847C491580E4ED0080ADCA /* FGalleryPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1847C451580E4ED0080ADCA /* FGalleryPhotoView.m */; };
+		B1847C4A1580E4ED0080ADCA /* FGalleryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1847C471580E4ED0080ADCA /* FGalleryViewController.m */; };
+		B1847C501580E54E0080ADCA /* audi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1847C4D1580E54E0080ADCA /* audi.jpg */; };
+		B1847C511580E54E0080ADCA /* hawaii.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B1847C4E1580E54E0080ADCA /* hawaii.jpeg */; };
+		B1847C521580E54E0080ADCA /* lava.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B1847C4F1580E54E0080ADCA /* lava.jpeg */; };
+		B1847C571580E5790080ADCA /* photo-gallery-edit-caption.png in Resources */ = {isa = PBXBuildFile; fileRef = B1847C531580E5790080ADCA /* photo-gallery-edit-caption.png */; };
+		B1847C581580E5790080ADCA /* photo-gallery-left.png in Resources */ = {isa = PBXBuildFile; fileRef = B1847C541580E5790080ADCA /* photo-gallery-left.png */; };
+		B1847C591580E5790080ADCA /* photo-gallery-right.png in Resources */ = {isa = PBXBuildFile; fileRef = B1847C551580E5790080ADCA /* photo-gallery-right.png */; };
+		B1847C5A1580E5790080ADCA /* photo-gallery-trashcan.png in Resources */ = {isa = PBXBuildFile; fileRef = B1847C561580E5790080ADCA /* photo-gallery-trashcan.png */; };
+		B1847C5C1580E5C30080ADCA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1847C5B1580E5C30080ADCA /* QuartzCore.framework */; };
+		B1847C631580F2CC0080ADCA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1847C621580F2CC0080ADCA /* MainWindow.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B12DE5291580FFA600330CCA /* PhotoSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoSource.h; sourceTree = "<group>"; };
+		B12DE52A1580FFA600330CCA /* PhotoSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoSource.m; sourceTree = "<group>"; };
 		B1847C201580E48D0080ADCA /* PhotoAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1847C241580E48D0080ADCA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B1847C261580E48D0080ADCA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B1847C281580E48D0080ADCA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		B1847C2C1580E48D0080ADCA /* PhotoAlbum-Info.plist */ = {isa = PBXFileReference; path = "PhotoAlbum-Info.plist"; sourceTree = "<group>"; };
+		B1847C2C1580E48D0080ADCA /* PhotoAlbum-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PhotoAlbum-Info.plist"; sourceTree = "<group>"; };
 		B1847C2E1580E48D0080ADCA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B1847C301580E48D0080ADCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B1847C321580E48D0080ADCA /* PhotoAlbum-Prefix.pch */ = {isa = PBXFileReference; path = "PhotoAlbum-Prefix.pch"; sourceTree = "<group>"; };
-		B1847C331580E48D0080ADCA /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		B1847C321580E48D0080ADCA /* PhotoAlbum-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PhotoAlbum-Prefix.pch"; sourceTree = "<group>"; };
+		B1847C331580E48D0080ADCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B1847C341580E48D0080ADCA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B1847C361580E48D0080ADCA /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		B1847C371580E48D0080ADCA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B1847C3A1580E48D0080ADCA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		B1847C421580E4ED0080ADCA /* FGalleryPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FGalleryPhoto.h; path = PhotoAlbum/FGalleryPhoto.h; sourceTree = "<group>"; };
+		B1847C431580E4ED0080ADCA /* FGalleryPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FGalleryPhoto.m; path = PhotoAlbum/FGalleryPhoto.m; sourceTree = "<group>"; };
+		B1847C441580E4ED0080ADCA /* FGalleryPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FGalleryPhotoView.h; path = PhotoAlbum/FGalleryPhotoView.h; sourceTree = "<group>"; };
+		B1847C451580E4ED0080ADCA /* FGalleryPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FGalleryPhotoView.m; path = PhotoAlbum/FGalleryPhotoView.m; sourceTree = "<group>"; };
+		B1847C461580E4ED0080ADCA /* FGalleryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FGalleryViewController.h; path = PhotoAlbum/FGalleryViewController.h; sourceTree = "<group>"; };
+		B1847C471580E4ED0080ADCA /* FGalleryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FGalleryViewController.m; path = PhotoAlbum/FGalleryViewController.m; sourceTree = "<group>"; };
+		B1847C4D1580E54E0080ADCA /* audi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = audi.jpg; sourceTree = "<group>"; };
+		B1847C4E1580E54E0080ADCA /* hawaii.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hawaii.jpeg; sourceTree = "<group>"; };
+		B1847C4F1580E54E0080ADCA /* lava.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lava.jpeg; sourceTree = "<group>"; };
+		B1847C531580E5790080ADCA /* photo-gallery-edit-caption.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-gallery-edit-caption.png"; sourceTree = "<group>"; };
+		B1847C541580E5790080ADCA /* photo-gallery-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-gallery-left.png"; sourceTree = "<group>"; };
+		B1847C551580E5790080ADCA /* photo-gallery-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-gallery-right.png"; sourceTree = "<group>"; };
+		B1847C561580E5790080ADCA /* photo-gallery-trashcan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "photo-gallery-trashcan.png"; sourceTree = "<group>"; };
+		B1847C5B1580E5C30080ADCA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B1847C621580F2CC0080ADCA /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1847C5C1580E5C30080ADCA /* QuartzCore.framework in Frameworks */,
 				B1847C251580E48D0080ADCA /* UIKit.framework in Frameworks */,
 				B1847C271580E48D0080ADCA /* Foundation.framework in Frameworks */,
 				B1847C291580E48D0080ADCA /* CoreGraphics.framework in Frameworks */,
@@ -50,7 +76,10 @@
 		B1847C151580E48D0080ADCA = {
 			isa = PBXGroup;
 			children = (
+				B1847C621580F2CC0080ADCA /* MainWindow.xib */,
+				B1847C411580E4AD0080ADCA /* FGallery */,
 				B1847C2A1580E48D0080ADCA /* PhotoAlbum */,
+				B1847C4B1580E5310080ADCA /* Resources */,
 				B1847C231580E48D0080ADCA /* Frameworks */,
 				B1847C211580E48D0080ADCA /* Products */,
 			);
@@ -67,9 +96,10 @@
 		B1847C231580E48D0080ADCA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B1847C241580E48D0080ADCA /* UIKit.framework */,
-				B1847C261580E48D0080ADCA /* Foundation.framework */,
 				B1847C281580E48D0080ADCA /* CoreGraphics.framework */,
+				B1847C261580E48D0080ADCA /* Foundation.framework */,
+				B1847C5B1580E5C30080ADCA /* QuartzCore.framework */,
+				B1847C241580E48D0080ADCA /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -79,9 +109,8 @@
 			children = (
 				B1847C331580E48D0080ADCA /* AppDelegate.h */,
 				B1847C341580E48D0080ADCA /* AppDelegate.m */,
-				B1847C361580E48D0080ADCA /* ViewController.h */,
-				B1847C371580E48D0080ADCA /* ViewController.m */,
-				B1847C391580E48D0080ADCA /* ViewController.xib */,
+				B12DE5291580FFA600330CCA /* PhotoSource.h */,
+				B12DE52A1580FFA600330CCA /* PhotoSource.m */,
 				B1847C2B1580E48D0080ADCA /* Supporting Files */,
 			);
 			path = PhotoAlbum;
@@ -96,6 +125,41 @@
 				B1847C321580E48D0080ADCA /* PhotoAlbum-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1847C411580E4AD0080ADCA /* FGallery */ = {
+			isa = PBXGroup;
+			children = (
+				B1847C421580E4ED0080ADCA /* FGalleryPhoto.h */,
+				B1847C431580E4ED0080ADCA /* FGalleryPhoto.m */,
+				B1847C441580E4ED0080ADCA /* FGalleryPhotoView.h */,
+				B1847C451580E4ED0080ADCA /* FGalleryPhotoView.m */,
+				B1847C461580E4ED0080ADCA /* FGalleryViewController.h */,
+				B1847C471580E4ED0080ADCA /* FGalleryViewController.m */,
+			);
+			name = FGallery;
+			sourceTree = "<group>";
+		};
+		B1847C4B1580E5310080ADCA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B1847C531580E5790080ADCA /* photo-gallery-edit-caption.png */,
+				B1847C541580E5790080ADCA /* photo-gallery-left.png */,
+				B1847C551580E5790080ADCA /* photo-gallery-right.png */,
+				B1847C561580E5790080ADCA /* photo-gallery-trashcan.png */,
+				B1847C4C1580E53D0080ADCA /* Gallery Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		B1847C4C1580E53D0080ADCA /* Gallery Images */ = {
+			isa = PBXGroup;
+			children = (
+				B1847C4D1580E54E0080ADCA /* audi.jpg */,
+				B1847C4E1580E54E0080ADCA /* hawaii.jpeg */,
+				B1847C4F1580E54E0080ADCA /* lava.jpeg */,
+			);
+			name = "Gallery Images";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +213,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1847C2F1580E48D0080ADCA /* InfoPlist.strings in Resources */,
-				B1847C3B1580E48D0080ADCA /* ViewController.xib in Resources */,
+				B1847C501580E54E0080ADCA /* audi.jpg in Resources */,
+				B1847C511580E54E0080ADCA /* hawaii.jpeg in Resources */,
+				B1847C521580E54E0080ADCA /* lava.jpeg in Resources */,
+				B1847C571580E5790080ADCA /* photo-gallery-edit-caption.png in Resources */,
+				B1847C581580E5790080ADCA /* photo-gallery-left.png in Resources */,
+				B1847C591580E5790080ADCA /* photo-gallery-right.png in Resources */,
+				B1847C5A1580E5790080ADCA /* photo-gallery-trashcan.png in Resources */,
+				B1847C631580F2CC0080ADCA /* MainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,7 +233,10 @@
 			files = (
 				B1847C311580E48D0080ADCA /* main.m in Sources */,
 				B1847C351580E48D0080ADCA /* AppDelegate.m in Sources */,
-				B1847C381580E48D0080ADCA /* ViewController.m in Sources */,
+				B1847C481580E4ED0080ADCA /* FGalleryPhoto.m in Sources */,
+				B1847C491580E4ED0080ADCA /* FGalleryPhotoView.m in Sources */,
+				B1847C4A1580E4ED0080ADCA /* FGalleryViewController.m in Sources */,
+				B12DE52B1580FFA600330CCA /* PhotoSource.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,14 +249,6 @@
 				B1847C2E1580E48D0080ADCA /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		B1847C391580E48D0080ADCA /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B1847C3A1580E48D0080ADCA /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -272,6 +338,7 @@
 				B1847C401580E48D0080ADCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

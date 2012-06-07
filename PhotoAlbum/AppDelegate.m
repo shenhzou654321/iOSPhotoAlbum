@@ -7,27 +7,31 @@
 //
 
 #import "AppDelegate.h"
-
-#import "ViewController.h"
+#import "PhotoSource.h"
 
 @implementation AppDelegate
 
-@synthesize window = _window;
-@synthesize viewController = _viewController;
+@synthesize window;
+@synthesize navigationController;
+@synthesize galleryViewController;
 
 - (void)dealloc
 {
-    [_window release];
-    [_viewController release];
+    [window release];
+    [navigationController release];
     [super dealloc];
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    self.viewController = [[[ViewController alloc] initWithNibName:@"ViewController" bundle:nil] autorelease];
-    self.window.rootViewController = self.viewController;
+    [self.window addSubview:navigationController.view];
+    
+    
+    galleryViewController = [[FGalleryViewController alloc] initWithPhotoSource:[[PhotoSource alloc] init]];
+    [self.navigationController pushViewController:galleryViewController animated:YES];
+    galleryViewController.navigationController.navigationBar.barStyle = UIBarStyleBlackTranslucent;
+    
     [self.window makeKeyAndVisible];
     return YES;
 }
